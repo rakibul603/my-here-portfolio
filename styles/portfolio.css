@@ -45,6 +45,10 @@
     color: #757575;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .color-orange {
     color: #FD6E0A;
 }
@@ -56,7 +60,7 @@ header {
     /* background-color: #FFF8F3; */
     background: url('../images/developer.png'), url('../images/header_bg.png'), #FFF8F3;
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
     padding-top: 50px;
 }
 
@@ -199,7 +203,7 @@ nav .menu a {
 
 /* resume section style  */
 
-#resume .resume-container { 
+#resume .resume-container {
     width: 71%;
     max-width: 1140px;
     margin: 113px auto 0;
@@ -207,35 +211,84 @@ nav .menu a {
     gap: 24px;
 
 }
-.resume-container hr { 
+
+.resume-container hr {
     margin: 30px 0;
 }
 
 
-.resume-container .section-title { 
+.resume-container .section-title {
     font-size: 30px;
     color: #474757;
     margin-bottom: 30px;
 }
 
-.resume-card { 
+.resume-card {
     max-width: 511px;
     margin-right: 47px;
 }
 
 .resume-card .card-title {
-    font-size: 25px; 
+    font-size: 25px;
     margin-bottom: 10px;
     color: #474757;
 }
+
 .resume-card .card-info {
     font-size: 20px;
-    font-weight: 600; 
+    font-weight: 600;
     margin-bottom: 20px;
     color: #474757;
 }
+
 .resume-card .card-text {
-    font-size: 16px; 
+    font-size: 16px;
     line-height: 28px;
     color: #474757;
+}
+
+
+footer {
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+
+footer .fotter-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+
+.fotter-container h2 {
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.fotter-container .social {
+    max-width: 562px;
+
+}
+
+.fotter-container p { 
+    color: #474757;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.fotter-container .icons  a { 
+margin-right: 24px;
+}
+
+.fotter-container form  input[type='text'] , .fotter-container form  textarea { 
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
 }
